@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://img.freepik.com/free-photo/closeup-hands-holding-cash_53876-144221.jpg?w=740&t=st=1707039043~exp=1707039643~hmac=c429df1c1947848c9853cdcee110ec12b1fc3b655b3eff68d95f174839137328);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #f1732a;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.btn {
+  font-family: "Protest Revolution", serif;
+  border: none;
+  color: #5595c9;
+  font-size: larger;
+  background-color: #660e21;
+  width: 100px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: ease 1s;
+}
+
+.btn:hover {
+  background-color: #032914;
+  color: #c9753d;
+  cursor: pointer;
+}
+
+#button {
+  display: flex;
+}
